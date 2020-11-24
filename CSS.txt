@@ -1,0 +1,49 @@
+CSS:
+
+CSS declarations consist of a property and value.
+PROPERTY - the property you'd like to style of that element (i.e., size, color, etc.).
+VALUE - the value of the property (i.e., 18px for size, blue for color, etc.).
+
+The property and value are separated by a colon (:). A semicolon (;) should always be used at the end of a declaration.
+
+Example:
+h1 {
+   size: 18px;
+   color: blue;
+}
+
+----------
+
+font-family property is where you use fonts
+
+Example:
+h1 {
+   font-family: Georgia;
+}
+
+font-size property is where you use the size of the fonts by "px" or pixels
+
+p  {
+   font-size: 18px;
+}
+
+Note:
+
+- What is a pixel and is this the only measure of font size?
+
+- A pixel is one of several units of measure in web development. It is an absolute unit equal to 1/96 of an inch.
+
+- Rems and ems are scalable typographic units which are commonly used with the font-size property. As opposed to pixels, both of these units are relative.
+For example, an em is measured relative to the font-size of an element. When dealing with ems it is important to realize that the font-size of an
+element is often inherited from an ancestor element. On the other hand, rems are determined based on the font-size of the html element. If font-size
+is not defined on the html element, the browser’s default font-size is used instead (usually 16px).
+
+There are pros and cons of each unit but one major advantage of using relative units is that they lend themselves more naturally to responsive design.
+Relative units like ems and rems are flexible and scalable whereas pixels are not.
+
+
+the font-weight property controls how bold or thin text appears.
+
+p  {
+   font-weight: bold;
+}

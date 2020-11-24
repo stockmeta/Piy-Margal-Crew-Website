@@ -1,0 +1,25 @@
+body {
+	background-image: url("images/thumb-1920-694852.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+h1, h2{
+	color: crimson;
+}
+.piy {
+	color: white;
+	font-size: 18px;
+}
+div.background {
+	background-color: white;
+	border: 1px solid black;
+	opacity: 0.6;
+	font-size: 18px;
+	filter: alpha(opacity=60);
+}
+div.tranxbox p {
+	margin:1%;
+	font-weight: bold;
+	color #000000;
+}
